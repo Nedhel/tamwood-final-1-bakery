@@ -1,3 +1,4 @@
+//This two funcions are for change the images when you have the cursor over each image in the products page
 function moveIn(id) {
     let bread = document.getElementById(id);
     switch (id) {

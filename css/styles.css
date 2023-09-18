@@ -146,7 +146,7 @@ nav a:hover::after {
     transform: translateX(0);
 }
 
-/*-------------------------------------*/
+/*----------------Banner---------------------*/
 .hero-banner {
     position: relative;
     overflow: hidden;
@@ -200,6 +200,7 @@ nav a:hover::after {
     box-shadow: 5px 2px 5px var(--primary-color);
 }
 
+/* This part is a section with features */
 .features {
     font-family: 'Courier New', Courier, monospace;
     font-size: small;
@@ -226,6 +227,7 @@ nav a:hover::after {
     text-align: center;
 }
 
+/* This part is a section with a gallery in the main page */
 .gallery1 {
     display: grid;
     gap: 2px;
@@ -297,6 +299,7 @@ nav a:hover::after {
     position: relative;
 }
 
+/* This part is a section with the effect parallax */
 .parallax-background {
     height: 100vh;
     background-image: url('../imgs/white-flower-with-cooking-ingredients-table.jpg');
@@ -318,6 +321,7 @@ nav a:hover::after {
     color: var(--secondary-color);
 }
 
+/* This part is a the footer for all pages */
 footer {
     display: grid;
     padding: 25px 0;
@@ -436,7 +440,7 @@ footer {
     padding: 3px 10px;
 }
 
-/*-------------------------------------------------------*/
+/* This styles is for about us page*/
 .about-us-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -514,6 +518,8 @@ footer {
     justify-content: space-between;
 }
 
+/* I use only two media queries, all above this point is for phones an tablets smaller than 821 px */
+/* And from here to bottom is for screen bigger than 821px*/
 @media only screen and (min-width: 821px) {
     nav {
         grid-template-columns: 1fr 2fr 1fr;
