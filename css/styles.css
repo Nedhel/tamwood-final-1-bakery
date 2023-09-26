@@ -193,6 +193,7 @@ nav a:hover::after {
     width: 150px;
     cursor: pointer;
     box-shadow: 5px 5px 5px var(--primary-color);
+    text-align: center;
 }
 
 .calltoAction:hover {
@@ -250,7 +251,7 @@ nav a:hover::after {
     position: relative;
 }
 
-.main-img>p {
+.main-img>h2 {
     background-color: var(--terciary-shadow3);
     position: absolute;
     top: 50%;
@@ -268,10 +269,10 @@ nav a:hover::after {
     position: relative;
 }
 
-.cake>p,
-.croissant>p,
-.pie>p,
-.concha>p {
+.cake>h2,
+.croissant>h2,
+.pie>h2,
+.concha>h2 {
     background-color: var(--terciary-shadow3);
     position: absolute;
     top: 0;
@@ -571,14 +572,14 @@ footer {
             'main pie concha';
     }
 
-    .main-img>p {
+    .main-img>h2 {
         font-size: 4vw;
     }
 
-    .cake>p,
-    .croissant>p,
-    .pie>p,
-    .concha>p {
+    .cake>h2,
+    .croissant>h2,
+    .pie>h2,
+    .concha>h2 {
         font-size: 2vw;
     }
 
