@@ -9,6 +9,8 @@
     </head>
     <body>
         <!-- This is the landing page -->
+
+        <!-- Navbar for desktop -->
         <nav id="navbar">
             <div class="logo">
                 <img src="./imgs/logo2.png" alt="Logo bakery" />
@@ -22,6 +24,7 @@
             <div class="contact">
                 <p>Phone: +1 XXX XXXX XXXXX</p>
             </div>
+            <!-- Hamburguer icon for desktop -->
             <div class="hamburgercontainer">
                 <div class="hamburgericon" onclick="openMenu(this)">
                     <div class="bar bar1"></div>
@@ -44,6 +47,7 @@
                 <span>CONTACT</span>
             </a>
         </div>
+        <!-- Banner section -->
         <section class="hero-banner">
             <img
                 id="banner-img"
@@ -63,6 +67,7 @@
                 ><span class="calltoAction">Order online</span></a
             >
         </section>
+        <!-- another section for features -->
         <section class="features">
             <div class="feature">
                 <h1>Only fresh bakery</h1>
@@ -81,6 +86,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
         </section>
+        <!-- a gallery section to show some products -->
         <section class="gallery1">
             <div class="main-img">
                 <img src="./imgs/half.jpg" alt="bread" />
@@ -110,12 +116,13 @@
             </div>
         </section>
         <section class="parallax-background">
-            <h1>Traditional Recipes</h1>
-            <h1>
+            <h1 class="flicker">Traditional Recipes</h1>
+            <h1 class="flicker">
                 with the <span class="highlighted">BEST</span> and
                 <span class="highlighted">FRESH</span> ingredients
             </h1>
         </section>
+        <!-- Testimonial section -->
         <section class="testimonial-container">
             <div class="testimonial" id="testimonial1">
                 <div class="profile">
@@ -170,6 +177,7 @@
             <a class="prev" onclick="changeTestimonial(-1)">&#10094;</a>
             <a class="next" onclick="changeTestimonial(1)">&#10095;</a>
         </section>
+        <!-- Footer same for mobile and desktop -->
         <footer>
             <div class="information">
                 <h3>Information</h3>
