@@ -519,6 +519,68 @@ footer {
     justify-content: space-between;
 }
 
+/* This is the testimonial section*/
+.testimonial-container {
+    background-color: var(--terciary-shadow);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--primary-color);
+}
+
+.testimonial {
+    width: 80%;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.show {
+    display: flex;
+}
+
+.profile {
+    flex: 0 1 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.comment {
+    flex: 1 1 200px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
 /* I use only two media queries, all above this point is for phones an tablets smaller than 821 px */
 /* And from here to bottom is for screen bigger than 821px*/
 @media only screen and (min-width: 821px) {
@@ -608,5 +670,9 @@ footer {
 
     .about-us-img2 {
         width: 70%;
+    }
+
+    .profile img {
+        width: 100%;
     }
 }
