@@ -322,6 +322,24 @@ nav a:hover::after {
     color: var(--secondary-color);
 }
 
+.flicker {
+    animation: flicker 2s linear 1s 5 alternate none;
+}
+
+@keyframes flicker {
+    0% {
+        color: var(--terciary-shadow2);
+    }
+
+    50% {
+        color: var(--primary-color);
+    }
+
+    100% {
+        color: var(--terciary-shadow2);
+    }
+}
+
 /* This part is a the footer for all pages */
 footer {
     display: grid;
